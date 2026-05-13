@@ -1,8 +1,8 @@
-\# Meu Projeto
+# Meu Projeto
 
 
 
-\## Venda Service
+## Venda Service
 
 
 
@@ -13,8 +13,7 @@ Este serviço simula uma aplicação de vendas. Após a venda ser efetuada, ele 
 No tópico, registro que a venda foi realizada e salvo o `id` do produto no canal do Kafka.
 
 
-
-!\[Arquitetura do Venda Service](images/venda-service.png)
+ <img width="1365" height="767" alt="image" src="https://github.com/jefflennon1/Tests-with-kafka/blob/master/images/venda-service.png?raw=true" /> 
 
 
 
@@ -22,7 +21,7 @@ No tópico, registro que a venda foi realizada e salvo o `id` do produto no cana
 
 
 
-!\[Chamada HTTP para registro de venda](images/chamada-http-venda.png)
+<img width="1365" height="767" alt="image" src="https://github.com/jefflennon1/Tests-with-kafka/blob/master/images/chamada-http-venda.png?raw=true" /> 
 
 
 
@@ -41,9 +40,8 @@ Este serviço tem o papel de \*\*CONSUMER\*\* das mensagens registradas no canal
 Após capturar o evento de que a venda foi realizada, minha aplicação simula a regra de negócio de um estoque.
 
 
-
-!\[Arquitetura do Estoque Service](images/estoque-service.png)
-
+ 
+<img width="1365" height="767" alt="image" src="https://github.com/jefflennon1/Tests-with-kafka/blob/master/images/estoque-service.png?raw=true" /> 
 
 
 \---
@@ -57,6 +55,5 @@ Após capturar o evento de que a venda foi realizada, minha aplicação simula a
 Abaixo, uma ferramenta visual do nosso cluster local criado (Offset Explorer):
 
 
-
-!\[Offset Explorer](images/offset-explorer.png)
+<img width="1365" height="767" alt="image" src="https://github.com/jefflennon1/Tests-with-kafka/blob/master/images/offset-explorer.png?raw=true" /> 
 
